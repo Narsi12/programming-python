@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Translate",
+  "version": "1.0.0",
+  "description": "Translate text via popup or context menu using LibreTranslate (configurable).",
+  "action": {
+    "default_title": "Quick Translate",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+

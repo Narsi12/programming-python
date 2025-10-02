@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quick Translate Options</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
+      .container { max-width: 720px; margin: 0 auto; padding: 16px; }
+      label { display: block; font-size: 12px; margin: 8px 0 4px; color: #333; }
+      input, select { width: 100%; padding: 8px; box-sizing: border-box; }
+      button { margin-top: 12px; padding: 8px 12px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quick Translate - Options</h1>
+      <label for="apiBaseUrl">API Base URL</label>
+      <input id="apiBaseUrl" placeholder="https://libretranslate.com" />
+
+      <label for="targetLang">Default target language</label>
+      <select id="targetLang"></select>
+
+      <button id="saveBtn">Save</button>
+      <span id="status" style="margin-left:8px;"></span>
+    </div>
+    <script src="options.js"></script>
+  </body>
+  </html>
+
+

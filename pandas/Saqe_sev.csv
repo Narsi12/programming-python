@@ -1,0 +1,76 @@
+Sprint ID,TC_ID,Category,Test Case Description,Test Result,Defect ID,Defect Description,Root cause Analysis,Defect Severity
+Spr 1,TC1,UI,Verify whether the user is able to click on Reject RRF from pop-up dialog box.,Fail,101,Unable to click on the button,Code Integration issue,Sev1
+Spr 1,TC2,UI,Verify whether the user is able to click on Cancel button in Reject pop-up dialog box.,Fail,102,Cancel button is not working as expected,Code missed to integrate,Sev2
+Spr 1,TC3,UI,Verify User able to Click on Action Button(3 Dots).,Pass,,,,
+Spr 1,TC4,UI,Verify User able to Click on Status dropdown.,Pass,,,,
+Spr 1,TC5,API,Verify Hiring manager/Approver/RMG  able to click On Create Job Button.,Fail,103,Page 404 error upon clicking on Job button,API Service down,Sev2
+Spr 1,TC6,API,Verify User able to click on Filters Button.,Fail,104,Filter options not shown in the drop down,Database not responding,Sev3
+Spr 1,TC7,API,Verify user able to click on the back button.,Fail,105,Seeing 404 error page,API Service down,Sev1
+Spr 1,TC8,API,Verify whether the user is able to click on the submit for the approval button.,Pass,,,,
+Spr 1,TC9,Database,Verify User able to edit the Permissions in Share popup.,Pass,,,,
+Spr 1,TC10,Database,User able to modify the details in the budget evaluation page.,Fail,106,Modified details are not injecting into the database,Database not responding,Sev1
+Spr 1,TC11,Database,Verify whether the user is able to select one or more practices in the Filter window.,Pass,,,,
+Spr 1,TC12,Database,Verify whether the user is able to select one or more RRF status in the Filter window.,Fail,107,Multiple selection is not allowed for the user,DB services down,Sev3
+Spr 1,TC13,Integration,Verify whether the user is able to click on Download button.,Pass,,,,
+Spr 1,TC14,Integration,Verify User able to select multiple checkboxes in location dropdown.,Pass,,,,
+Spr 1,TC15,Integration,RRF - Verify User able to create RRF without entering Mandatory Details.,Pass,,,,
+Spr 2,TC1,UI,Verify whether the user is able to click on Reject RRF from pop-up dialog box.,Pass,,,,
+Spr 2,TC2,UI,Verify whether the user is able to click on Cancel button in Reject pop-up dialog box.,Pass,,,,
+Spr 2,TC3,UI,Verify User able to Click on Action Button(3 Dots).,Fail,101,Unable to click on the button,Code Integration issue,Sev3
+Spr 2,TC4,UI,Verify User able to Click on Status dropdown.,Fail,102,Cancel button is not working as expected,Code missed to integrate,Sev1
+Spr 2,TC5,API,Verify Hiring manager/Approver/RMG  able to click On Create Job Button.,Fail,108,Page not responding - refresh issue,API Service not responding,Sev2
+Spr 2,TC6,API,Verify User able to click on Filters Button.,Pass,,,,
+Spr 2,TC7,API,Verify user able to click on the back button.,Fail,103,Page 404 error upon clicking on Job button,API Service down,Sev1
+Spr 2,TC8,API,Verify whether the user is able to click on the submit for the approval button.,Fail,104,Filter options not shown in the drop down,Database not responding,Sev2
+Spr 2,TC9,Database,Verify User able to edit the Permissions in Share popup.,Pass,,,,
+Spr 2,TC10,Database,User able to modify the details in the budget evaluation page.,Pass,,,,
+Spr 2,TC11,Database,Verify whether the user is able to select one or more practices in the Filter window.,Pass,,,,
+Spr 2,TC12,Database,Verify whether the user is able to select one or more RRF status in the Filter window.,Fail,109,Null values shown,Database not responding,Sev3
+Spr 2,TC13,Integration,Verify whether the user is able to click on Download button.,Fail,110,Downstream data not showing,Integration issue,Sev1
+Spr 2,TC14,Integration,Verify User able to select multiple checkboxes in location dropdown.,Pass,,,,
+Spr 2,TC15,Integration,RRF - Verify User able to create RRF without entering Mandatory Details.,Pass,,,,
+Spr 3,TC1,UI,Verify whether the user is able to click on Reject RRF from pop-up dialog box.,Fail,101,Unable to click on the button,Code Integration issue,Sev1
+Spr 3,TC2,UI,Verify whether the user is able to click on Cancel button in Reject pop-up dialog box.,Fail,102,Cancel button is not working as expected,Code missed to integrate,Sev2
+Spr 3,TC3,UI,Verify User able to Click on Action Button(3 Dots).,Pass,,,,
+Spr 3,TC4,UI,Verify User able to Click on Status dropdown.,Pass,,,,
+Spr 3,TC5,API,Verify Hiring manager/Approver/RMG  able to click On Create Job Button.,Fail,103,Page 404 error upon clicking on Job button,API Service down,Sev2
+Spr 3,TC6,API,Verify User able to click on Filters Button.,Fail,104,Filter options not shown in the drop down,Database not responding,Sev3
+Spr 3,TC7,API,Verify user able to click on the back button.,Fail,105,Seeing 404 error page,API Service down,Sev1
+Spr 3,TC8,API,Verify whether the user is able to click on the submit for the approval button.,Pass,,,,
+Spr 3,TC9,Database,Verify User able to edit the Permissions in Share popup.,Pass,,,,
+Spr 3,TC10,Database,User able to modify the details in the budget evaluation page.,Fail,106,Modified details are not injecting into the database,Database not responding,Sev1
+Spr 3,TC11,Database,Verify whether the user is able to select one or more practices in the Filter window.,Pass,,,,
+Spr 3,TC12,Database,Verify whether the user is able to select one or more RRF status in the Filter window.,Fail,107,Multiple selection is not allowed for the user,DB services down,Sev3
+Spr 3,TC13,Integration,Verify whether the user is able to click on Download button.,Pass,,,,
+Spr 3,TC14,Integration,Verify User able to select multiple checkboxes in location dropdown.,Pass,,,,
+Spr 3,TC15,Integration,RRF - Verify User able to create RRF without entering Mandatory Details.,Pass,,,,
+Spr 4,TC1,UI,Verify whether the user is able to click on Reject RRF from pop-up dialog box.,Pass,,,,
+Spr 4,TC2,UI,Verify whether the user is able to click on Cancel button in Reject pop-up dialog box.,Pass,,,,
+Spr 4,TC3,UI,Verify User able to Click on Action Button(3 Dots).,Fail,101,Unable to click on the button,Code Integration issue,Sev3
+Spr 4,TC4,UI,Verify User able to Click on Status dropdown.,Fail,102,Cancel button is not working as expected,Code missed to integrate,Sev1
+Spr 4,TC5,API,Verify Hiring manager/Approver/RMG  able to click On Create Job Button.,Pass,103,Page 404 error upon clicking on Job button,API Service down,
+Spr 4,TC6,API,Verify User able to click on Filters Button.,Fail,104,Filter options not shown in the drop down,Database not responding,Sev3
+Spr 4,TC7,API,Verify user able to click on the back button.,Pass,,,,
+Spr 4,TC8,API,Verify whether the user is able to click on the submit for the approval button.,Fail,103,Page 404 error upon clicking on Job button,API Service down,Sev2
+Spr 4,TC9,Database,Verify User able to edit the Permissions in Share popup.,Pass,,,,
+Spr 4,TC10,Database,User able to modify the details in the budget evaluation page.,Pass,,,,
+Spr 4,TC11,Database,Verify whether the user is able to select one or more practices in the Filter window.,Pass,,,,
+Spr 4,TC12,Database,Verify whether the user is able to select one or more RRF status in the Filter window.,Pass,,,,
+Spr 4,TC13,Integration,Verify whether the user is able to click on Download button.,Fail,110,Downstream data not showing,Integration issue,Sev1
+Spr 4,TC14,Integration,Verify User able to select multiple checkboxes in location dropdown.,Pass,,,,
+Spr 4,TC15,Integration,RRF - Verify User able to create RRF without entering Mandatory Details.,Pass,,,,
+Spr 5,TC1,UI,Verify whether the user is able to click on Reject RRF from pop-up dialog box.,Fail,101,Unable to click on the button,Code Integration issue,Sev1
+Spr 5,TC2,UI,Verify whether the user is able to click on Cancel button in Reject pop-up dialog box.,Fail,102,Cancel button is not working as expected,Code missed to integrate,Sev2
+Spr 5,TC3,UI,Verify User able to Click on Action Button(3 Dots).,Pass,,,,
+Spr 5,TC4,UI,Verify User able to Click on Status dropdown.,Pass,,,,
+Spr 5,TC5,API,Verify Hiring manager/Approver/RMG  able to click On Create Job Button.,Fail,103,Page 404 error upon clicking on Job button,API Service down,Sev2
+Spr 5,TC6,API,Verify User able to click on Filters Button.,Fail,104,Filter options not shown in the drop down,Database not responding,Sev3
+Spr 5,TC7,API,Verify user able to click on the back button.,Fail,105,Seeing 404 error page,API Service down,Sev1
+Spr 5,TC8,API,Verify whether the user is able to click on the submit for the approval button.,Pass,,,,
+Spr 5,TC9,Database,Verify User able to edit the Permissions in Share popup.,Pass,,,,
+Spr 5,TC10,Database,User able to modify the details in the budget evaluation page.,Fail,106,Modified details are not injecting into the database,Database not responding,Sev1
+Spr 5,TC11,Database,Verify whether the user is able to select one or more practices in the Filter window.,Pass,,,,
+Spr 5,TC12,Database,Verify whether the user is able to select one or more RRF status in the Filter window.,Fail,107,Multiple selection is not allowed for the user,DB services down,Sev3
+Spr 5,TC13,Integration,Verify whether the user is able to click on Download button.,Pass,,,,
+Spr 5,TC14,Integration,Verify User able to select multiple checkboxes in location dropdown.,Pass,,,,
+Spr 5,TC15,Integration,RRF - Verify User able to create RRF without entering Mandatory Details.,Pass,,,,
